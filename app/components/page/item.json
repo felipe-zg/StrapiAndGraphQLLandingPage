@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_page_items",
+  "info": {
+    "name": "item",
+    "icon": "text-height"
+  },
+  "options": {},
+  "attributes": {
+    "concept": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
