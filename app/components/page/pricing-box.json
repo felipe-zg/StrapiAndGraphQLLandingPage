@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_page_pricing_boxes",
+  "info": {
+    "name": "PricingBox",
+    "icon": "dollar-sign"
+  },
+  "options": {},
+  "attributes": {
+    "price": {
+      "type": "decimal",
+      "required": true,
+      "default": 0
+    },
+    "numberOfInstallments": {
+      "type": "integer",
+      "required": true,
+      "default": 1
+    },
+    "installmentPrice": {
+      "type": "decimal"
+    },
+    "BennefitsList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.bennefits-list"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.btn"
+    }
+  }
+}

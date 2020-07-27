@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_page_bennefits_lists",
+  "info": {
+    "name": "BennefitsList",
+    "icon": "list-ol"
+  },
+  "options": {},
+  "attributes": {
+    "bennefit": {
+      "type": "string",
+      "default": "add bennefit as bullet point list",
+      "required": true
+    }
+  }
+}
