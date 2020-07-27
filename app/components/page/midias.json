@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_page_midias",
+  "info": {
+    "name": "midias",
+    "icon": "network-wired"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "linkedin",
+        "github",
+        "facebook",
+        "twitter",
+        "instagram"
+      ],
+      "required": true,
+      "default": "twitter"
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
