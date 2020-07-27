@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_page_reviews",
+  "info": {
+    "name": "review",
+    "icon": "book-open"
+  },
+  "options": {},
+  "attributes": {
+    "photo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "name": {
+      "type": "richtext",
+      "required": true
+    },
+    "reviewText": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

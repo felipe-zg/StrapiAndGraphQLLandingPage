@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_page_section_reviewas",
+  "info": {
+    "name": "SectionReviewa",
+    "icon": "pen"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "review": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.review",
+      "min": 4
+    }
+  }
+}

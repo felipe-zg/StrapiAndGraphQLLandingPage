@@ -57,6 +57,11 @@
       "type": "component",
       "repeatable": false,
       "component": "page.section-about-us"
+    },
+    "SectionReviewa": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-reviewa"
     }
   }
 }
